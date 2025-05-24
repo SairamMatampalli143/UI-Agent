@@ -126,46 +126,6 @@ The agent expects a Cucumber JSON report like:
   }
 ]
 ```
-
----
-
-### 📦 Setup Instructions
-
-1. **Clone the repository**
-
-```bash
-git clone https://github.com/yourusername/ai-automation-agent.git
-cd ai-automation-agent
-```
-
-2. **Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-3. **Update and rename config**
-
-```bash
-cp config.json.example config.json
-```
-
-4. **Run the bot**
-
-```bash
-python ai_agent.py
-```
-
-5. *(Optional)* Create a `.bat` file to auto-start with Windows
-
----
-
-### 📸 Screenshots (Optional)
-
-*Include GIFs or images showing the Telegram interaction.*
-
----
-
 ### 💡 Notes
 
 * Designed for long-running UI suites (e.g., Selenium, Cucumber)
